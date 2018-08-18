@@ -26,6 +26,7 @@ deleteWishList(movieId) {
      }
      addToWishList(movie) {
          this.movies.movieId = movie.id;
+         this.movies.movieId = Math.random() * 50 + 1;
        this.movies.movieTitle = movie.Title;
         this.movies.movieRating = movie.vote_avg;
         this.movies.releaseYear = movie.Year;
