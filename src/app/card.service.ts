@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { MovieDetails } from './movie';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
-import { getLocaleFirstDayOfWeek } from '@angular/common';
+
 
 @Injectable({
   providedIn: 'root'
